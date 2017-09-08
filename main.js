@@ -1,3 +1,5 @@
+import Shape from './lib/Shape.js';
+
 const canvas = document.getElementById('screen');
 const context = canvas.getContext('2d');
 
