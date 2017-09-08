@@ -1,5 +1,5 @@
 import Shape from './lib/Shape.js';
-import {PURPLE, PINK} from './lib/colors.js';
+import {PURPLE, RED} from './lib/colors.js';
 
 const canvas = document.getElementById('screen');
 const context = canvas.getContext('2d');
