@@ -1,5 +1,5 @@
 import Shape from './lib/Shape.js';
-import * as Colors from './lib/colors.js';
+import {PURPLE, PINK} from './lib/colors.js';
 
 const canvas = document.getElementById('screen');
 const context = canvas.getContext('2d');
@@ -7,13 +7,13 @@ const context = canvas.getContext('2d');
 const shapes = [];
 
 const rect = new Shape();
-rect.color.copy(Colors.PURPLE);
+rect.color.copy(PURPLE);
 rect.size.set(200, 60);
 rect.position.set(20, 10);
 shapes.push(rect);
 
 const square = new Shape();
-square.color.copy(Colors.PINK);
+square.color.copy(PINK);
 square.size.set(120, 120);
 square.position.set(200, 100);
 shapes.push(square);
